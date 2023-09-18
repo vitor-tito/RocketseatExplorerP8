@@ -1,0 +1,105 @@
+:root {
+  font-size: 62.5%
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*Defini a cor de fundo da página de forma gradiente*/
+  background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+  font-size: 1.6rem;
+
+  height: 100vh; /*Defini a altura da caixa "body" para a altura da visualização da tela do navegador*/
+
+  display: grid;
+  place-items: center; /*Centraliza os itens dentro do "body" a partir do "display grid"*/
+}
+
+body, button, input {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+button {
+  background-color: #7879F1;
+  font-weight: 700;
+  color: white;
+  border-radius: 0 .4rem .4rem 0;
+
+  cursor: pointer; /*Adiciona simbologia de mão ao cursor*/
+
+  transition: background .3s; /*Suaviza mudançade cor do botão*/
+}
+
+/*Ação ao passar o mouse acima do botão*/
+button:hover {
+  background-color: #6363CE;
+}
+
+/*Esconde os elementos com a classe ".hide"*/
+.hide {
+  display: none;
+}
+
+main {
+  background: #FFF;
+  /*Adiciona sombreamento na caixa*/
+  box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.10);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+  width: min(42.5rem, 90%);
+
+  margin-top: -12rem; /*Sobe um pouco da caixa central*/
+
+  text-align: center;
+
+}
+
+/*Screen1*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+h1, p {
+  color: #34355B;
+}
+
+p {
+  opacity: 0.8;
+}
+
+form {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+input, button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: #DCE2E9;
+  width: 6rem;
+  border-radius: .4rem 0 0 .4rem;
+}
+
+/*Screen2*/
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: .4rem;
+}
